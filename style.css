@@ -13,9 +13,16 @@
 }
 h1 {
     text-align:center;
+    color:blue;
 }
 h2 {
     text-align:center;
+}
+
+#P5 {
+    color: red;
+    text-align:center;
+    font-size:x-large;
 }
 
 #P2 {
@@ -23,10 +30,22 @@ h2 {
 }
 
 body {
-    background:linear-gradient(to top, skyblue, lightyellow);
+    background:white;
     background-attachment: fixed;
     background-repeat: no-repeat;
     padding:40px;
+
+
+}
+
+.card {
+    background: linear-gradient(to top, skyblue, lightyellow);
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+    text-align: left;
 }
 
 P {
